@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.card-header h1 {
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+
+.rowes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f0f0f0;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+.one {
+    flex-basis: 10%;
+    text-align: center;
+}
+
+.three {
+    flex-basis: 70%;
+}
+
+.four {
+    flex-basis: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+span {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+img {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card-header{
+    padding: 20px;
+    background-color: red;
+}
+.card-body form {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    justify-content: space-around;
+    justify-content: space-between;
+}
+.card-body {
+    margin-top: 20px;
+}
+.card-body form input{
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.card-body form input text :focus{
+    outline: 0;
+}
+
+.buttonadd {
+    margin-right: 20px;
+    background-color: #28a745; 
+    color: #fff; 
+    border: none; 
+    padding: 8px 16px; 
+    text-transform: capitalize;
+    font-weight: bolder;
+    border-radius: 4px; 
+    cursor: pointer; 
+  }
+  
+  .buttonadd:hover {
+    background-color: #218838; 
+  }
+  .four a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    background-color: red;
+    padding: 8px 16px;
+    color: whitesmoke;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  }
+  
+
+  
+  .four a:hover {
+    background-color: blue;
+    color: #fff;
+  }
+  .card-header p{
+    color: white;
+    font-weight: 500;
+  }
+
+  .done {
+    text-decoration: line-through;
+  }
+.buttons-make{
+    background-color: #218838 !important;
+}
